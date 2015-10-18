@@ -81,6 +81,9 @@ The password of the wireless user. This is provided to the WLC as a *$_POST* var
 This is an arbitrary variable that must be set to a value of `4` to proceed. This is provided to the WLC as a *$_POST* variable upon form submission, and if not set will redirect the user back to the **External Webauth URL**.
 
 ## Status Codes (statusCode variable)
+
+Only `statusCode` numbers are sent by the WLC. The text description next to each `statusCode` below is purely for informational purposes only and is not sent by the WLC.
+
 1. You are already logged in. No further action is required on your part.
 2. You are not configured to authenticate against web portal. No further action is required on your part.
 3. The username specified cannot be used at this time. Perhaps the username is already logged into the system?
