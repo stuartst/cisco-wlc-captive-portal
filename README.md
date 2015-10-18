@@ -15,7 +15,7 @@ This simple PHP script is designed for people who wish to use an external web si
   * If an error occurs with authentication the WLC returns a `statusCode` variable with a value between 1-5 (see below for value definitions)
   * If authentication succeeds the user is redirected to the WLC configured **Redirect URL after login** setting
 
-## Variables
+## $_GET Variables
 
 * `switch_url`
 
@@ -65,6 +65,8 @@ redirect=bbc.co.uk/
 * `statusCode`
 
 The status code returned from the controller's web authentication server. This is provided by the WLC as a *$_GET* variable upon an authentication error.
+
+## $_POST Variables
 
 * `username`
 
